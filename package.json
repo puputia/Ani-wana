@@ -26,7 +26,7 @@
     "deploy": "gh-pages -d build",
     "predeploy": "npm run build"
   },
-  "homepage": "https://puputia.github.io/Ani-wana",
+  "homepage": "aniwana.netlify.app",
   "eslintConfig": {
     "extends": [
       "react-app",
