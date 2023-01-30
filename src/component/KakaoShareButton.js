@@ -20,7 +20,7 @@ const KakaoShareButton = ({data}) => {
       objectType: 'feed',
       content: {
         title: '나의 애니메이션 추천 결과',
-        description: '나와 맞는 애니메이션은 앙앙 입니다.',
+        description: `나와 맞는 애니메이션은 ${data.name} 입니다.`,
         imageUrl:
           'https://mud-kage.kakao.com/dn/NTmhS/btqfEUdFAUf/FjKzkZsnoeE4o19klTOVI1/openlink_640x640s.jpg',
         link: {

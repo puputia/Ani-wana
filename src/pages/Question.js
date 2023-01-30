@@ -15,8 +15,7 @@ const Question = () => {
     let addScore = QuestionData[questionNo].a[no].add_score; // N : 선택한 항목의 idx
     for (let i = 0; i < 12; ++i) {
       totalScore[i] += addScore[i];
-      console.log("totalScore[i]", totalScore[i]);
-      // setTotalScore(); //이부분은 임시로 해놓은건데 어떻게 처리할까나...
+      // console.log("totalScore[i]", totalScore[i]);
     }
 
     // let addScore = totalScore.map((s) =>
