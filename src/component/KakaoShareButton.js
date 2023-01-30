@@ -21,11 +21,10 @@ const KakaoShareButton = ({data}) => {
       content: {
         title: '나의 애니메이션 추천 결과',
         description: `나와 맞는 애니메이션은 ${data.name} 입니다.`,
-        imageUrl:
-          'https://mud-kage.kakao.com/dn/NTmhS/btqfEUdFAUf/FjKzkZsnoeE4o19klTOVI1/openlink_640x640s.jpg',
+        imageUrl: url + data.image,
         link: {
-          mobileWebUrl: 'https://developers.kakao.com',
-          webUrl: 'https://developers.kakao.com',
+          mobileWebUrl: resultUrl,
+          webUrl: resultUrl,
         },
       },
       
@@ -34,8 +33,8 @@ const KakaoShareButton = ({data}) => {
         {
           title: '나도 테스트 하러가기',
           link: {
-            mobileWebUrl: 'url',
-            webUrl: 'url',
+            mobileWebUrl: url,
+            webUrl: url,
           },
         },
       ],
