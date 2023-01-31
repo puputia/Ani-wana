@@ -9,10 +9,12 @@ import { ResultData } from "../assets/data/resultdata";
 import NetflixLogo from "../assets/img/logo/netflix_logo.png";
 import LaftelLogo from "../assets/img/logo/laftel_logo.png";
 import Arrow from "../assets/img/logo/arrow.png";
-
+import TwitterShareButton from '../component/TwitterShareButton'
+// import CopyUrl from '../component/CopyUrl'
 import KakaoShareButton from '../component/KakaoShareButton';
-import Twitter from "../assets/img/logo/twitter.png";
-import CopyLink from "../assets/img/logo/link.png";
+// import Twitter from "../assets/img/logo/twitter.png";
+
+// import CopyLink from "../assets/img/logo/link.png";
 import Wrapper from "../common/Wrapper";
 
 const Result = () => {
@@ -138,26 +140,9 @@ const Result = () => {
         </Platform>
         <KakaoShareButton data={resultData} />
         <ButtonGroup>
+          <TwitterShareButton />
           
-          <Button
-            style={{
-              background: "#50abf1",
-              border: "1px solid #cccccc",
-              color: "white",
-              fontFamily: "Pretendard-Regular",
-              width: 300,
-              height: 55,
-              marginTop: "15px",
-            }}
-          >
-            <img
-              style={{ border: "none", width: "35px", margin: "5px" }}
-              src={Twitter}
-              alt="트위터 공유"
-            />
-            트위터 공유하기
-          </Button>
-          <Button
+          {/* <Button
             style={{
               color: "black",
               background: "#d3d3d3",
@@ -166,14 +151,15 @@ const Result = () => {
               height: 55,
               marginTop: "15px", 
             }}
-          >
+            >
             <img
               style={{ border: "none", width: "28px", marginRight: "10px" }}
               src={CopyLink}
-              alt="트위터 공유"
+              alt="링크 복사하기"
             />
             링크 복사하기
-          </Button>
+          </Button>  */}
+          {/* /* <Button onclick={CopyUrl}></Button> */}
           <Button
             style={{
               background: "black",
@@ -184,7 +170,7 @@ const Result = () => {
               marginBottom: "50px",
             }}
             onClick={() => navigate("/")}
-          >
+            >
             테스트 다시하기
           </Button>
         </ButtonGroup>
