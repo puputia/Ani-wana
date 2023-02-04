@@ -6,7 +6,7 @@ const { Kakao } = window;
 const KakaoShareButton = ({data}) => {
   const url = "https://aniwana.netlify.app/";
   const resultUrl = window.location.href;
-
+  console.log("kakao data", data);
   console.log('ddd', resultUrl, url)
 
   React.useEffect(()=> {
@@ -15,8 +15,8 @@ const KakaoShareButton = ({data}) => {
     console.log(Kakao.isInitialized());
   }, []);
 
-  const shareKakao = (data) => {
-    console.log("kakao data", data);
+  const shareKakao = () => {
+    
     Kakao.Share.sendDefault({
       objectType: 'feed',
       content: {
