@@ -31,6 +31,7 @@ const Result = () => {
     console.log("result",result);
   }, [Ani]);
   
+  console.log(resultData);
   console.log("resultdata",ResultData);
   console.log("searchParams",searchParams);
   // idx 구하는식.
