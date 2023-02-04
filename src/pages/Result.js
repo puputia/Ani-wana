@@ -32,6 +32,7 @@ const Result = () => {
   }, [Ani]);
   
   console.log("resultdata",ResultData);
+  console.log("searchParams",searchParams);
   // idx 구하는식.
   // const x = () => {
   //   ...
@@ -140,7 +141,7 @@ const Result = () => {
         </Platform>
         <KakaoShareButton data={resultData} />
         <ButtonGroup>
-          <TwitterShareButton />
+          <TwitterShareButton data={1}/>
           
           {/* <Button
             style={{

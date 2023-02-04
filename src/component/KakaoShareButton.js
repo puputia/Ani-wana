@@ -15,7 +15,7 @@ const KakaoShareButton = ({data}) => {
     console.log(Kakao.isInitialized());
   }, []);
 
-  const shareKakao = () => {
+  const shareKakao = (data) => {
     Kakao.Share.sendDefault({
       objectType: 'feed',
       content: {
