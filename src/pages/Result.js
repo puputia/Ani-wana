@@ -139,7 +139,7 @@ const Result = () => {
             )}
           </ButtonGroup>
         </Platform>
-        <KakaoShareButton data={ResultData[idx]} />
+        <KakaoShareButton data={ResultData[idx].name} />
         <ButtonGroup>
           <TwitterShareButton data={1}/>
           
