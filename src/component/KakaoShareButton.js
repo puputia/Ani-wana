@@ -21,7 +21,7 @@ const KakaoShareButton = ({data}) => {
       objectType: 'feed',
       content: {
         title: '나의 애니메이션 추천 결과',
-        description: `나와 맞는 애니메이션은 ${data.name} 입니다.`,
+        description: `나와 맞는 애니메이션은 ${data} 입니다.`,
         imageUrl: url + data.image,
         link: {
           mobileWebUrl: resultUrl,
