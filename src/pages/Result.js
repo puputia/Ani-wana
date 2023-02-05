@@ -14,7 +14,7 @@ import TwitterShareButton from '../component/TwitterShareButton'
 import KakaoShareButton from '../component/KakaoShareButton';
 // import Twitter from "../assets/img/logo/twitter.png";
 
-// import CopyLink from "../assets/img/logo/link.png";
+import CopyLink from "../assets/img/logo/link.png";
 import Wrapper from "../common/Wrapper";
 
 const Result = () => {
@@ -144,7 +144,7 @@ const Result = () => {
         <ButtonGroup>
           <TwitterShareButton data={1}/>
           
-          {/* <Button
+          <Button
             style={{
               color: "black",
               background: "#d3d3d3",
@@ -160,7 +160,7 @@ const Result = () => {
               alt="링크 복사하기"
             />
             링크 복사하기
-          </Button>  */}
+          </Button> 
           {/* /* <Button onclick={CopyUrl}></Button> */}
           <Button
             style={{

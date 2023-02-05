@@ -4,7 +4,7 @@ import KakaoIcon from "../assets/img/logo/kakaotalk_sharing_btn_small.png";
 const { Kakao } = window;
 
 const KakaoShareButton = ({data}) => {
-  const url = "https://aniwana.netlify.app/";
+  const url = "https://aniwana.swygbro.com/";
   const resultUrl = window.location.href;
   console.log("kakao data", data);
   console.log('ddd', resultUrl, url)
