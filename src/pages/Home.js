@@ -70,16 +70,17 @@ const Contents = styled.div`
 `;
 
 const Title = styled.div`
-  font-size: 30pt;
+  font-size: 28pt;
   font-weight: bold;
   margin-top: 40px;
-  font-family: "Pretendard-Regular";
+  font-family: 'MICEGothic Bold';
   color: white;
+  
 `;
 
 const SubTitle = styled.div`
-  font-size: 22pt;
-  margin-top: 40px;
+  font-size: 20pt;
+  margin-top: 25px;
   font-family: "Pretendard-Regular";
   color: white;
 `;

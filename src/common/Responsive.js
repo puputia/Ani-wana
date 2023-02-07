@@ -9,7 +9,7 @@ const ResponsiveBlock = styled.div`
   width: 448px;
   margin: 0 auto; /* 중앙 정렬 */
   @media (max-width : 447px) {
-    width : 90%;
+    width : 100%;
 }
 `;
 

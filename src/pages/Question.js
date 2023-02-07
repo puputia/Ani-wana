@@ -1,16 +1,18 @@
 import React from "react";
 import styled from "styled-components";
 import { ProgressBar, Button } from "react-bootstrap";
-import { useNavigate } from "react-router-dom";
+import {  createSearchParams, useNavigate } from "react-router-dom";
 import { QuestionData } from "../assets/data/questiondata";
+
 import Wrapper from "../common/Wrapper";
+
 
 const Question = () => {
   const [questionNo, setQuestionNo] = React.useState(0);
   let totalScore = [0,0,0,0,0,0,0,0,0,0,0,0];
   
   const navigate = useNavigate();
-
+ 
   const handleClickButton = (no) => {
     let addScore = QuestionData[questionNo].a[no].add_score; // N : 선택한 항목의 idx
     for (let i = 0; i < 12; ++i) {
@@ -44,11 +46,18 @@ const Question = () => {
       console.log("max_score", max_score);
       console.log("idx_ani", idx_ani);
 
-      // Result.js 로 넘어가는거잖아 //  func_calc()으로 리턴된 값을 같이 넘겨야돼
-      navigate('/result', {
+      // Result.js 로 넘어가는 부분, 리턴된 값을 같이 넘김.
+      navigate('/result?`{state}`', {
         state: { idx: idx_ani },
         }
       );
+      // navigate({
+      //   pathname: "/result",
+      //   search: `?${createSearchParams({
+      //     idx: idx_ani,
+      //   })}`
+      // });
+
       // Ani: navigate에 넘길 key, Anime_name: navigate에 넘길 value
     }
   };

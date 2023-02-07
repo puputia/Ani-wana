@@ -13,14 +13,22 @@ import TwitterShareButton from '../component/TwitterShareButton'
 // import CopyUrl from '../component/CopyUrl'
 import KakaoShareButton from '../component/KakaoShareButton';
 // import Twitter from "../assets/img/logo/twitter.png";
-
+import CopyToClipboard from "react-copy-to-clipboard";
 import CopyLink from "../assets/img/logo/link.png";
 import Wrapper from "../common/Wrapper";
+import Footer from "../common/Footer";
 
 const Result = () => {
   const navigate = useNavigate();
   const [searchParams] = useSearchParams();
+  
 
+  const link = window.location.href;
+
+
+  const alertMessage = () => {
+      alert("내 애니메이션 추천 결과가 클립보드에 담겼어요!");
+  }
   const Ani = searchParams.get('Ani');
   //최종적으로 도출한 결과 객체
   const [resultData, setResultData] = React.useState({});
@@ -45,106 +53,113 @@ const Result = () => {
    
   return (
     <>
-    <Wrapper>
-      <Contents>
-        <Header>나의 취향 애니찾기</Header>
-        <Title>결과 보기</Title>
-        <LogoImage>
-          <img
-            className="col-lg-10 col-md-8 mx-3 col-sm-8 col-8"
-            src={ResultData[idx].image}
-            alt="애니사진"
-          />
-        </LogoImage>
-        <Desc>
-          <div>내 애니취향은</div>
-          <div
-            className="mb-20"
-            style={{ fontSize: "48px", fontWeight: "bold" }}
-          >
-            {ResultData[idx].name}
-          </div>
-        </Desc>
-        <Plot>
-          <div  style={{ whiteSpace: "pre-wrap",  textAlign: "left", margin:"0 10px 0 10px",alignItems:"center" }}>
-            {ResultData[idx].plot}
-          </div>
-        </Plot>
-        <Platform>
-          <div style={{ fontWeight: "bold" }}>감상 가능한 플랫폼</div>
+      <Wrapper>
+        <Contents>
+          <Header style={{fontFamily: 'MICEGothic Bold', fontSize:"30px", alignItems:"center", textAlign: "center"}}>나의 취향 애니찾기</Header>
+          <Title style={{fontFamily: 'MICEGothic Bold'}}>결과 보기</Title>
+          <LogoImage>
+            <img
+              className="col-lg-10 col-md-8 mx-3 col-sm-8 col-8 rounded-3"
+              src={ResultData[idx].image}
+              alt="애니사진"
+            />
+          </LogoImage>
+          <Desc>
+            <div>내 애니취향은</div>
+            <div
+              className="mb-20"
+              style={{ fontFamily: 'ONE-Mobile-POP',fontSize: "48px"  }}
+            >
+              {ResultData[idx].name}
+            </div>
+          </Desc>
+          <Plot>
+            <div
+              style={{
+                whiteSpace: "pre-wrap",
+                textAlign: "left",
+                margin: "0 10px 0 10px",
+                alignItems: "center",
+              }}
+            >
+              {ResultData[idx].plot}
+            </div>
+          </Plot>
+          <Platform>
+            <div style={{ fontWeight: "bold" }}>감상 가능한 플랫폼</div>
+            <ButtonGroup>
+              {/* {ResultData[0].url2 ? (<></>) : (<></>)} */}
+              {ResultData[idx].url1 ? (
+                <button
+                  className="my-4"
+                  width="20rem"
+                  style={{
+                    background: "white",
+                    border: "none",
+                    display: "flex",
+                    flexDirection: "row",
+                    alignItems: "center",
+                  }}
+                  onClick={() => {
+                    window.open(ResultData[idx].url1);
+                  }}
+                >
+                  <img src={LaftelLogo} alt="logo2" width="100" />
+                  <div
+                    className="my-4"
+                    style={{
+                      alignItems: "center",
+                      justifyContents: "center",
+                      textAlign: "center",
+                      width: "100%",
+                    }}
+                  >
+                    라프텔
+                  </div>
+                  <img src={Arrow} alt="arrow" width="35" />
+                </button>
+              ) : (
+                <></>
+              )}
+              {ResultData[idx].url2 ? (
+                <button
+                  className="my-4"
+                  width="20rem"
+                  style={{
+                    background: "white",
+                    border: "none",
+                    display: "flex",
+                    flexDirection: "row",
+                    alignItems: "center",
+                  }}
+                  onClick={() => {
+                    window.open(ResultData[idx].url2);
+                  }}
+                >
+                  <img src={NetflixLogo} alt="logo2" width="100" />
+                  <div
+                    className="my-4"
+                    style={{
+                      alignItems: "center",
+                      justifyContents: "center",
+                      textAlign: "center",
+                      width: "100%",
+                    }}
+                  >
+                    넷플릭스
+                  </div>
+                  <img src={Arrow} alt="arrow" width="35" />
+                </button>
+              ) : (
+                <></>
+              )}
+            </ButtonGroup>
+          </Platform>
+          <KakaoShareButton data={ResultData[idx]} />
           <ButtonGroup>
-            {/* {ResultData[0].url2 ? (<></>) : (<></>)} */}
-            {ResultData[idx].url1 ? (
-              <button
-                className="my-4"
-                width="20rem"
-                style={{
-                  background: "white",
-                  border: "none",
-                  display: "flex",
-                  flexDirection: "row",
-                  alignItems: "center",
-                }}
-                onClick={() => {
-                  window.open(ResultData[idx].url1);
-                }}
-              >
-                <img src={LaftelLogo} alt="logo2" width="100" />
-                <div
-                  className="my-4"
-                  style={{
-                    alignItems: "center",
-                    justifyContents: "center",
-                    textAlign: "center",
-                    width: "100%",
-                  }}
-                >
-                  라프텔
-                </div>
-                <img src={Arrow} alt="arrow" width="35" />
-              </button>
-            ) : (
-              <></>
-            )}
-            {ResultData[idx].url2 ? (
-              <button
-                className="my-4"
-                width="20rem"
-                style={{
-                  background: "white",
-                  border: "none",
-                  display: "flex",
-                  flexDirection: "row",
-                  alignItems: "center",
-                }}
-                onClick={() => {
-                  window.open(ResultData[idx].url2);
-                }}
-              >
-                <img src={NetflixLogo} alt="logo2" width="100" />
-                <div
-                  className="my-4"
-                  style={{
-                    alignItems: "center",
-                    justifyContents: "center",
-                    textAlign: "center",
-                    width: "100%",
-                  }}
-                >
-                  넷플릭스
-                </div>
-                <img src={Arrow} alt="arrow" width="35" />
-              </button>
-            ) : (
-              <></>
-            )}
-          </ButtonGroup>
-        </Platform>
-        <KakaoShareButton data={ResultData[idx]} />
-        <ButtonGroup>
-          <TwitterShareButton data={1}/>
-          
-          <Button
+            <TwitterShareButton data={1} />
+
+            {/* <Button
             style={{
               color: "black",
               background: "#d3d3d3",
@@ -160,25 +175,47 @@ const Result = () => {
               alt="링크 복사하기"
             />
             링크 복사하기
-          </Button> 
-          {/* /* <Button onclick={CopyUrl}></Button> */}
-          <Button
-            style={{
-              background: "black",
-              fontFamily: "Pretendard-Regular",
-              width: 300,
-              height: 55,
-              marginTop: "15px",
-              marginBottom: "50px",
-            }}
-            onClick={() => navigate("/")}
+          </Button>  */}
+            <CopyToClipboard text={link}>
+              <Button
+                style={{
+                  color: "black",
+                  background: "#d3d3d3",
+                  fontFamily: "Pretendard-Regular",
+                  width: 300,
+                  height: 55,
+                  marginTop: "15px",
+                  border : "none"
+                }}
+                onClick={alertMessage}
+              >
+                <img
+                  style={{ border: "none", width: "28px", marginRight: "10px" }}
+                  src={CopyLink}
+                  alt="링크 복사하기"
+                />
+                링크 복사하기
+              </Button>
+            </CopyToClipboard>
+            {/* /* <Button onclick={CopyUrl}></Button> */}
+            <Button
+              style={{
+                background: "black",
+                fontFamily: "Pretendard-Regular",
+                width: 300,
+                height: 55,
+                marginTop: "15px",
+                marginBottom: "50px",
+                border : "none"
+              }}
+              onClick={() => navigate("/")}
             >
-            테스트 다시하기
-          </Button>
-        </ButtonGroup>
-        
-      </Contents>
-    </Wrapper>
+              테스트 다시하기
+            </Button>
+          </ButtonGroup>
+        </Contents>
+        <Footer /> 
+      </Wrapper>
     </>
   );
 };
@@ -218,6 +255,9 @@ const Contents = styled.div`
   background-color: white;
 `;
 
+
+ 
+
 const Desc = styled.div`
   font-size: 20pt;
   margin-top: 20px;
@@ -251,6 +291,7 @@ const LogoImage = styled.div`
   text-align: center;
   align-items: center;
   justify-content: center;
+  
 `;
 
 const ButtonGroup = styled.div`

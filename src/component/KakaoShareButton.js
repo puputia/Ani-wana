@@ -46,12 +46,13 @@ const KakaoShareButton = ({data}) => {
       <Button onClick={shareKakao}
       style={{
         background: "#FEE500",
-        border: "1px solid #cccccc",
+        border: "none",
         color: "black",
         fontFamily: "Pretendard-Regular",
         width: 300,
         height: 55,
         marginTop: "15px",
+        
       }}
     >
       <img
