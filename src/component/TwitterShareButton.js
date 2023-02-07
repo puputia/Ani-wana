@@ -1,13 +1,17 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 import TwitterIcon from "../assets/img/logo/twitter.png"
+
+
 const TwitterShareButton = (data) => {
- 
+     
+    const link = window.location.href;
+    // let copy_link = link + "?" + idx;
     if(data.type === 'click'){
         window.open("https://twitter.com/intent/tweet"
         + "?via=Aniwana"
         + "&text=" + encodeURIComponent("나에게 맞는 취향저격 애니메이션은?!") // twitter 공유 함수
-        + "&url=" + encodeURIComponent(window.location.href)
+        + "&url=" + encodeURIComponent(link)
     );}
 
     return (

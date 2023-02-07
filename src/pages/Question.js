@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { ProgressBar, Button } from "react-bootstrap";
-import {  createSearchParams, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { QuestionData } from "../assets/data/questiondata";
 
 import Wrapper from "../common/Wrapper";
@@ -46,8 +46,10 @@ const Question = () => {
       console.log("max_score", max_score);
       console.log("idx_ani", idx_ani);
 
+      
       // Result.js 로 넘어가는 부분, 리턴된 값을 같이 넘김.
-      navigate('/result?`{state}`', {
+      let tmp = "/result";
+      navigate(tmp + "?" + idx_ani, {
         state: { idx: idx_ani },
         }
       );

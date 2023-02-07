@@ -2,8 +2,9 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Footerdiv = styled.div`
-    position : relative;
-    height: 6em;
+
+     position:relative;
+    height: 8em;
     width : 100%;
     background-color : #2E294E;
     text-align : center;
@@ -22,9 +23,9 @@ const Footer = () => {
     return (
         <Footerdiv>
             <Text>
-                <p>문의 : jokj624@sookmyung.ac.kr, coolkim99@sookmyung.ac.kr</p>
-                <p>© 2021. All Rights Reserved.</p>
-                <p><a href="https://github.com/jokj624/OMG-Test" style={{ color: '#616161' }}>OMG-Test's Github</a></p>
+                <p>문의 : sunny100487@naver.com, sunny100487@gmail.com</p>
+                <p>©Aniwana 2023. All Rights Reserved.</p>
+                <p><a href="https://github.com/puputia/Ani-wana" style={{ color: '#616161' }}>Aniwana's Github</a></p>
             </Text>
         </Footerdiv>
     );

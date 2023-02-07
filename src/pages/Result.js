@@ -3,15 +3,15 @@ import React from "react";
 import styled from "styled-components";
 // import PangImage from '../assets/first_cat.jpg';
 import Button from "react-bootstrap/Button";
-import { useLocation } from 'react-router-dom';
+import { useLocation } from "react-router-dom";
 import { useSearchParams, useNavigate } from "react-router-dom";
 import { ResultData } from "../assets/data/resultdata";
 import NetflixLogo from "../assets/img/logo/netflix_logo.png";
 import LaftelLogo from "../assets/img/logo/laftel_logo.png";
 import Arrow from "../assets/img/logo/arrow.png";
-import TwitterShareButton from '../component/TwitterShareButton'
+import TwitterShareButton from "../component/TwitterShareButton";
 // import CopyUrl from '../component/CopyUrl'
-import KakaoShareButton from '../component/KakaoShareButton';
+import KakaoShareButton from "../component/KakaoShareButton";
 // import Twitter from "../assets/img/logo/twitter.png";
 import CopyToClipboard from "react-copy-to-clipboard";
 import CopyLink from "../assets/img/logo/link.png";
@@ -21,42 +21,50 @@ import Footer from "../common/Footer";
 const Result = () => {
   const navigate = useNavigate();
   const [searchParams] = useSearchParams();
-  
 
-  const link = window.location.href;
-
-
-  const alertMessage = () => {
-      alert("내 애니메이션 추천 결과가 클립보드에 담겼어요!");
-  }
-  const Ani = searchParams.get('Ani');
+  const Ani = searchParams.get("Ani");
   //최종적으로 도출한 결과 객체
   const [resultData, setResultData] = React.useState({});
 
   React.useEffect(() => {
     const result = ResultData.find((s) => s.name === Ani);
     setResultData(result);
-    console.log("result",result);
+    console.log("result", result);
   }, [Ani]);
-  
+
   console.log(resultData);
-  console.log("resultdata",ResultData);
-  console.log("searchParams",searchParams);
+  console.log("resultdata", ResultData);
+  console.log("searchParams", searchParams);
   // idx 구하는식.
   // const x = () => {
   //   ...
   //   setResult(2);
   // }
 
-    const location = useLocation();
-    const idx = location.state.idx;
-   
+  const location = useLocation();
+  const idx = location.state.idx;
+
+  const link = window.location.href;
+  let copy_link = link + "?" + idx;
+  
+  const alertMessage = () => {
+    alert("내 애니메이션 추천 결과가 클립보드에 담겼어요!");
+  };
   return (
     <>
       <Wrapper>
         <Contents>
-          <Header style={{fontFamily: 'MICEGothic Bold', fontSize:"30px", alignItems:"center", textAlign: "center"}}>나의 취향 애니찾기</Header>
-          <Title style={{fontFamily: 'MICEGothic Bold'}}>결과 보기</Title>
+          <Header
+            style={{
+              fontFamily: "MICEGothic Bold",
+              fontSize: "30px",
+              alignItems: "center",
+              textAlign: "center",
+            }}
+          >
+            나의 취향 애니찾기
+          </Header>
+          <Title style={{ fontFamily: "MICEGothic Bold" }}>결과 보기</Title>
           <LogoImage>
             <img
               className="col-lg-10 col-md-8 mx-3 col-sm-8 col-8 rounded-3"
@@ -68,7 +76,7 @@ const Result = () => {
             <div>내 애니취향은</div>
             <div
               className="mb-20"
-              style={{ fontFamily: 'ONE-Mobile-POP',fontSize: "48px"  }}
+              style={{ fontFamily: "ONE-Mobile-POP", fontSize: "48px" }}
             >
               {ResultData[idx].name}
             </div>
@@ -157,8 +165,8 @@ const Result = () => {
           </Platform>
           <KakaoShareButton data={ResultData[idx]} />
           <ButtonGroup>
-            <TwitterShareButton data={1} />
-
+            <TwitterShareButton data={idx} />
+                
             {/* <Button
             style={{
               color: "black",
@@ -176,7 +184,7 @@ const Result = () => {
             />
             링크 복사하기
           </Button>  */}
-            <CopyToClipboard text={link}>
+            <CopyToClipboard text={copy_link}>
               <Button
                 style={{
                   color: "black",
@@ -185,7 +193,7 @@ const Result = () => {
                   width: 300,
                   height: 55,
                   marginTop: "15px",
-                  border : "none"
+                  border: "none",
                 }}
                 onClick={alertMessage}
               >
@@ -206,15 +214,15 @@ const Result = () => {
                 height: 55,
                 marginTop: "15px",
                 marginBottom: "50px",
-                border : "none"
+                border: "none",
               }}
               onClick={() => navigate("/")}
             >
               테스트 다시하기
             </Button>
           </ButtonGroup>
+          <Footer />
         </Contents>
-        <Footer /> 
       </Wrapper>
     </>
   );
@@ -255,9 +263,6 @@ const Contents = styled.div`
   background-color: white;
 `;
 
-
- 
-
 const Desc = styled.div`
   font-size: 20pt;
   margin-top: 20px;
@@ -291,12 +296,9 @@ const LogoImage = styled.div`
   text-align: center;
   align-items: center;
   justify-content: center;
-  
 `;
 
 const ButtonGroup = styled.div`
   display: flex;
   flex-direction: column;
 `;
-
-
