@@ -42,10 +42,28 @@ const Result = () => {
   // }
 
   const location = useLocation();
+  const link = window.location.href;
+  
+  // ? 뒤의 숫자가 0~11이기 때문에 반복문 이중 for문 만들어줘서
+  // 숫자 끝까지 검사함.
+
+  let parse_idx = "";
+  for(let i=0; i<link.length; i++){
+    if(link[i] === '?'){
+      for(let j=i+1;j<link.length; j++){
+        parse_idx += link[j]; //물음표 뒤에 숫자 
+      }
+      break;
+    }
+  }
+  
+  // parse_idx 의 자료형을 str -> int
+  parse_idx *= 1;
+
+  
   const idx = location.state.idx;
 
-  const link = window.location.href;
-  let copy_link = link + "?" + idx;
+  let copy_link = link + "?" + parse_idx;
   
   const alertMessage = () => {
     alert("내 애니메이션 추천 결과가 클립보드에 담겼어요!");
@@ -68,7 +86,7 @@ const Result = () => {
           <LogoImage>
             <img
               className="col-lg-10 col-md-8 mx-3 col-sm-8 col-8 rounded-3"
-              src={ResultData[idx].image}
+              src={ResultData[parse_idx].image}
               alt="애니사진"
             />
           </LogoImage>
@@ -78,7 +96,7 @@ const Result = () => {
               className="mb-20"
               style={{ fontFamily: "ONE-Mobile-POP", fontSize: "48px" }}
             >
-              {ResultData[idx].name}
+              {ResultData[parse_idx].name}
             </div>
           </Desc>
           <Plot>
@@ -90,14 +108,14 @@ const Result = () => {
                 alignItems: "center",
               }}
             >
-              {ResultData[idx].plot}
+              {ResultData[parse_idx].plot}
             </div>
           </Plot>
           <Platform>
             <div style={{ fontWeight: "bold" }}>감상 가능한 플랫폼</div>
             <ButtonGroup>
               {/* {ResultData[0].url2 ? (<></>) : (<></>)} */}
-              {ResultData[idx].url1 ? (
+              {ResultData[parse_idx].url1 ? (
                 <button
                   className="my-4"
                   width="20rem"
@@ -109,7 +127,7 @@ const Result = () => {
                     alignItems: "center",
                   }}
                   onClick={() => {
-                    window.open(ResultData[idx].url1);
+                    window.open(ResultData[parse_idx].url1);
                   }}
                 >
                   <img src={LaftelLogo} alt="logo2" width="100" />
@@ -129,7 +147,7 @@ const Result = () => {
               ) : (
                 <></>
               )}
-              {ResultData[idx].url2 ? (
+              {ResultData[parse_idx].url2 ? (
                 <button
                   className="my-4"
                   width="20rem"
@@ -141,7 +159,7 @@ const Result = () => {
                     alignItems: "center",
                   }}
                   onClick={() => {
-                    window.open(ResultData[idx].url2);
+                    window.open(ResultData[parse_idx].url2);
                   }}
                 >
                   <img src={NetflixLogo} alt="logo2" width="100" />
@@ -163,9 +181,9 @@ const Result = () => {
               )}
             </ButtonGroup>
           </Platform>
-          <KakaoShareButton data={ResultData[idx]} />
+          <KakaoShareButton data={ResultData[parse_idx]} />
           <ButtonGroup>
-            <TwitterShareButton data={idx} />
+            <TwitterShareButton data={parse_idx} />
                 
             {/* <Button
             style={{
