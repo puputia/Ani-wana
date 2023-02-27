@@ -44,7 +44,7 @@ const Result = () => {
   // const location = useLocation();
   const link = window.location.href;
 
-  const tmp = "http://localhost:3000/Redirect";
+  const tmp = "https://aniwana.netlify.app/Redirect";
   
   // ? 뒤의 숫자가 0~11이기 때문에 반복문 이중 for문 만들어줘서
   // 숫자 끝까지 검사함.
