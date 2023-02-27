@@ -43,6 +43,8 @@ const Result = () => {
 
   const location = useLocation();
   const link = window.location.href;
+
+  const tmp = "http://localhost:3000/Redirect";
   
   // ? 뒤의 숫자가 0~11이기 때문에 반복문 이중 for문 만들어줘서
   // 숫자 끝까지 검사함.
@@ -63,7 +65,8 @@ const Result = () => {
   
   const idx = location.state.idx;
 
-  let copy_link = link + "?" + parse_idx;
+  // let copy_link = link + "?" + parse_idx;
+  let copy_link = tmp + "?" + parse_idx; // using debug, not publish
   
   const alertMessage = () => {
     alert("내 애니메이션 추천 결과가 클립보드에 담겼어요!");
