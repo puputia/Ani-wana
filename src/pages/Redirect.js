@@ -1,11 +1,9 @@
-import React from "react";
-import styled from "styled-components";
-import { ProgressBar, Button } from "react-bootstrap";
-import { useLocation, useNavigate,  } from "react-router-dom";
-import { QuestionData } from "../assets/data/questiondata";
+
+import {useNavigate  } from "react-router-dom";
+
 import {useEffect} from 'react';
 
-import Wrapper from "../common/Wrapper";
+
 
 const Redir = () => {
     const navigate = useNavigate();

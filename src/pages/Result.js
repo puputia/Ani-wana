@@ -3,7 +3,7 @@ import React from "react";
 import styled from "styled-components";
 // import PangImage from '../assets/first_cat.jpg';
 import Button from "react-bootstrap/Button";
-import { useLocation } from "react-router-dom";
+// import { useLocation } from "react-router-dom";
 import { useSearchParams, useNavigate } from "react-router-dom";
 import { ResultData } from "../assets/data/resultdata";
 import NetflixLogo from "../assets/img/logo/netflix_logo.png";
@@ -41,7 +41,7 @@ const Result = () => {
   //   setResult(2);
   // }
 
-  const location = useLocation();
+  // const location = useLocation();
   const link = window.location.href;
 
   const tmp = "http://localhost:3000/Redirect";
@@ -63,7 +63,7 @@ const Result = () => {
   parse_idx *= 1;
 
   
-  const idx = location.state.idx;
+  // const idx = location.state.idx;
 
   // let copy_link = link + "?" + parse_idx;
   let copy_link = tmp + "?" + parse_idx; // using debug, not publish
