@@ -22,7 +22,7 @@ const TwitterShareButton = (data) => {
     
     // parse_idx 의 자료형을 str -> int
     parse_idx *= 1;
-    const tmp = "https://aniwana.netlify.app/Redirect";
+    const tmp = "https://aniwana.swygbro.com//Redirect";
     let copy_link = tmp + "?" + parse_idx;
     if(data.type === 'click'){
         window.open("https://twitter.com/intent/tweet"
