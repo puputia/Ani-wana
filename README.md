@@ -1,12 +1,8 @@
-
-# 애니와나 - 자신의 취향에 맞는 애니메이션을 추천해 주는 사이트
-<img src ="![aniwana swygbro com_](https://github.com/puputia/Ani-wana/assets/87532431/2be30eae-a98a-46df-a5cf-c16d35b5a387" width="100" height="100">
- 
 <br><br>
-## 📚 Aniwana
+## 📚 Aniwana - 자신의 취향에 맞는 애니메이션을 추천해 주는 사이트
 <br><br>
 <p align="center">
- <img src ="![aniwana swygbro com_](https://github.com/puputia/Algorithm/assets/87532431/de979a0b-6bc7-4a7d-9c31-3c50598f9b53)" width="100" height="300">
+ <img src ="![aniwana swygbro com_](https://github.com/puputia/Ani-wana/assets/87532431/1afe119d-9036-4437-afff-eeebffeffc2c)" width="100" height="300">
 </p>
 <br><br>
 
@@ -17,8 +13,8 @@
 
 |포지션|프로필|이름|
 |----|-----|---|
-|개발자|<img src ="![image](https://github.com/puputia/Algorithm/assets/87532431/a4530b0a-f548-4716-bc89-4c469bb0f6dd" width="100" height="300">) |서혜인|
-|기획자|![image](<img src ="![image](https://github.com/puputia/Algorithm/assets/87532431/c6885ced-f6be-46bc-928a-89da7401b017" width="100" height="300">)|유동건|
+|개발자|<img src="![image](https://github.com/puputia/Algorithm/assets/87532431/a4530b0a-f548-4716-bc89-4c469bb0f6dd" width="100" height="300">) |서혜인|
+|기획자|<img src ="![image](https://github.com/puputia/Algorithm/assets/87532431/c6885ced-f6be-46bc-928a-89da7401b017" width="100" height="300">)|유동건|
  
 <br><br>
 
