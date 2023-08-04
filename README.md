@@ -1,6 +1,6 @@
 
 # 애니와나 - 자신의 취향에 맞는 애니메이션을 추천해 주는 사이트
-![aniwana swygbro com_](https://github.com/puputia/Ani-wana/assets/87532431/2be30eae-a98a-46df-a5cf-c16d35b5a387){: width="100" height="100"}
+![aniwana swygbro com_](https://github.com/puputia/Ani-wana/assets/87532431/2be30eae-a98a-46df-a5cf-c16d35b5a387 {: width="100" height="100"})
 
  
 <br><br>
