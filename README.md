@@ -1,5 +1,6 @@
-![image](https://github.com/puputia/Ani-wana/assets/87532431/8f937971-5778-471e-948b-6fe68476c955)# 애니와나 - 자신의 취향에 맞는 애니메이션을 추천해 주는 사이트
 
+# 애니와나 - 자신의 취향에 맞는 애니메이션을 추천해 주는 사이트
+![image](https://github.com/puputia/Ani-wana/assets/87532431/8f937971-5778-471e-948b-6fe68476c955)
  
 <br><br>
 ## 📚 Aniwana
@@ -16,8 +17,8 @@
 
 |포지션|프로필|이름|
 |----|-----|---|
-|개발자|![image](https://github.com/puputia/Algorithm/assets/87532431/a4530b0a-f548-4716-bc89-4c469bb0f6dd)|서혜인|
-|기획자|![image](https://github.com/puputia/Algorithm/assets/87532431/c6885ced-f6be-46bc-928a-89da7401b017)|유동건|
+|개발자|![image](https://github.com/puputia/Algorithm/assets/87532431/a4530b0a-f548-4716-bc89-4c469bb0f6dd width="300" height="300")|서혜인|
+|기획자|![image](https://github.com/puputia/Algorithm/assets/87532431/c6885ced-f6be-46bc-928a-89da7401b017 width="300" height="300")|유동건|
 
 <br><br>
 
