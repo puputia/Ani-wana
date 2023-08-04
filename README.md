@@ -1,15 +1,14 @@
 
 # 애니와나 - 자신의 취향에 맞는 애니메이션을 추천해 주는 사이트
-![aniwana swygbro com_](https://github.com/puputia/Ani-wana/assets/87532431/2be30eae-a98a-46df-a5cf-c16d35b5a387 {: width="100" height="100"})
-
+<img src ="![aniwana swygbro com_](https://github.com/puputia/Ani-wana/assets/87532431/2be30eae-a98a-46df-a5cf-c16d35b5a387" width="100" height="100">
  
 <br><br>
 ## 📚 Aniwana
 <br><br>
 <p align="center">
-  <img style="display=inline" src="![aniwana swygbro com_](https://github.com/puputia/Algorithm/assets/87532431/de979a0b-6bc7-4a7d-9c31-3c50598f9b53)
-" width="300" height="300" />
-</p><br><br>
+ <img src ="![aniwana swygbro com_](https://github.com/puputia/Algorithm/assets/87532431/de979a0b-6bc7-4a7d-9c31-3c50598f9b53)" width="100" height="300">
+</p>
+<br><br>
 
 
 <br><br>
@@ -18,9 +17,9 @@
 
 |포지션|프로필|이름|
 |----|-----|---|
-|개발자|![image](https://github.com/puputia/Algorithm/assets/87532431/a4530b0a-f548-4716-bc89-4c469bb0f6dd width="100" height="100") |서혜인|
-|기획자|![image](https://github.com/puputia/Algorithm/assets/87532431/c6885ced-f6be-46bc-928a-89da7401b017 width="100" height="100")|유동건|
-
+|개발자|<img src ="![image](https://github.com/puputia/Algorithm/assets/87532431/a4530b0a-f548-4716-bc89-4c469bb0f6dd" width="100" height="300">) |서혜인|
+|기획자|![image](<img src ="![image](https://github.com/puputia/Algorithm/assets/87532431/c6885ced-f6be-46bc-928a-89da7401b017" width="100" height="300">)|유동건|
+ 
 <br><br>
 
 
@@ -31,21 +30,22 @@
   <br>
   
  <p align="center">
-  <img style="display=inline" src="https://user-images.githubusercontent.com/56534241/155872372-6e6fbab4-6e2d-4535-a7b3-e5470b39310d.png" width="610" height="110" />
+  <img style="display=inline" src="" width="610" height="110" />
   </p>
   <br>
-    <img style="display=inline" src="https://user-images.githubusercontent.com/56534241/155872470-b25cfada-ed63-4a8f-b88a-d344ec931764.png" />
+    <img style="display=inline" src="" />
  
   <br><br>
   
 
 ## # 핵심 기능 <br>
   + <strong>[구현 완료]</strong><br>
-  💡 홈페이지<br>
-  💡 질문 페이지<br>
-  💡 결과 페이지<br>
-  💡 공유기능(카카오톡, 트위터)<br>
-  💡 애니 시청 사이트 링크 이동 기능(라프텔, 넷플릭스)<br>
+  💡 홈페이지 : 테스트 첫 화면, 테스트 시작하기 버튼이 있음<br>
+  💡 질문 페이지: 질문에 맞는 대답을 클릭하면 프로그래스바가 채워지며 다음 질문으로 넘어감<br>
+  💡 결과 페이지: 
+     + 사용자가 응답한 질문들을 토대로 사용자의 취향 저격 애니메이션을 추천해줌<br>
+     + 공유기능(카카오톡, 트위터)<br>
+     + 애니 시청 사이트 링크 이동 기능(라프텔, 넷플릭스)<br>
   💡 <br>
   + <strong>[실력을 쌓은 후 추후 유지보수 예정]</strong><br>
   💡 테스트 결과에 따른 유사 추천 애니<br>
