@@ -2,7 +2,7 @@
 ## 📚 Aniwana - 자신의 취향에 맞는 애니메이션을 추천해 주는 사이트
 <br><br>
 <p align="center">
- ![logo](https://github.com/puputia/Ani-wana/assets/87532431/aec04197-54bb-4ff7-b0d8-b2d163df5ff1)
+  ![logo](https://github.com/puputia/Ani-wana/assets/87532431/aec04197-54bb-4ff7-b0d8-b2d163df5ff1)
 </p>
 <br><br>
 
