@@ -1,5 +1,5 @@
 <br><br>
-## 📚 Aniwana - 자신의 취향에 맞는 애니메이션을 추천해 주는 사이트
+## Aniwana - 자신의 취향에 맞는 애니메이션을 추천해 주는 사이트
 <br><br>
 <p align="center">
  ![logo](https://github.com/puputia/Ani-wana/assets/87532431/3349d443-a79f-4556-9c07-e8c9125a7215)
@@ -34,7 +34,7 @@
   <br><br>
   
 
-## # 핵심 기능 <br>
+## 핵심 기능 <br>
   + <strong>[구현 완료]</strong><br>
   💡 홈페이지 : 테스트 첫 화면, 테스트 시작하기 버튼이 있음<br>
   💡 질문 페이지: 질문에 맞는 대답을 클릭하면 프로그래스바가 채워지며 다음 질문으로 넘어감<br>
@@ -50,14 +50,14 @@
 
 <br><br>
 
-## # 기술 스택
+## 기술 스택
  <p align="center">
    <img src="https://img.shields.io/badge/Javascript-ffb13b?style=flat-square&logo=javascript&logoColor=white"/></a>&nbsp 
    <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=white"/>&nbsp
 </p>
 <br><br>
 
-## # 협업 커뮤니케이션
+## 협업 커뮤니케이션
 + Github
 + Swyg
 + Notion
