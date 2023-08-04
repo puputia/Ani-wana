@@ -18,8 +18,8 @@
 
 |포지션|프로필|이름|
 |----|-----|---|
-|개발자|![image](https://github.com/puputia/Algorithm/assets/87532431/a4530b0a-f548-4716-bc89-4c469bb0f6dd) width="300" height="300"|서혜인|
-|기획자|![image](https://github.com/puputia/Algorithm/assets/87532431/c6885ced-f6be-46bc-928a-89da7401b017 width="300" height="300") width="300" height="300"|유동건|
+|개발자|![image](https://github.com/puputia/Algorithm/assets/87532431/a4530b0a-f548-4716-bc89-4c469bb0f6dd width="100" height="100") |서혜인|
+|기획자|![image](https://github.com/puputia/Algorithm/assets/87532431/c6885ced-f6be-46bc-928a-89da7401b017 width="100" height="100")|유동건|
 
 <br><br>
 
@@ -27,12 +27,7 @@
 ## 🤔 주제 선정 백그라운드
   
   
-  | 이해관계 | 선생님,   학생,  학부모 |
-| -------- | ---------------------- |
-| 니즈  |학업 방향성에 대한 피드백, 소통을 나누는 것에 대한 니즈가 강함    |
-
   
-  Pre단계에서 발생하는 User Problem을 해결해주는 서비스(과외 매칭 서비스)는 많이 존재하지만 During-After 단계의 User Problem을 해결을 위한 서비스 시장은 아직 블루오션.
   <br>
   
  <p align="center">
