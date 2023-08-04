@@ -13,8 +13,8 @@
 
 |포지션|프로필|이름|
 |----|-----|---|
-|개발자|<img src="https://github.com/puputia/Algorithm/assets/87532431/a4530b0a-f548-4716-bc89-4c469bb0f6dd.png" width="200" height="200" />|서혜인|
-|기획자|<img src ="https://github.com/puputia/Algorithm/assets/87532431/c6885ced-f6be-46bc-928a-89da7401b017png" width="200" height="200"/>|유동건|
+|개발자|<img src="https://github.com/puputia/Ani-wana/assets/87532431/0707964b-b44a-45df-8ea2-ad65348106be.jpg" width="200" height="200" />|서혜인|
+|기획자|<img src ="https://github.com/puputia/Ani-wana/assets/87532431/e79818a9-87ba-471f-9b72-83b7dbe118c9.jpg" width="200" height="200"/>|유동건|
  
 <br><br>
 
