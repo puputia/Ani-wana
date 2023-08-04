@@ -1,9 +1,10 @@
 <br><br>
 ## Aniwana - 자신의 취향에 맞는 애니메이션을 추천해 주는 사이트
-<a href="https://aniwana.swygbro.com/">애니와나 사이트(바로가기)</a>
+
 <br><br>
 <p align="center">
  <img src="https://github.com/puputia/Ani-wana/assets/87532431/9448f267-695a-49ce-845b-3a9b013dc051.png" />
+<a href="https://aniwana.swygbro.com/">애니와나 사이트(바로가기)</a>
 </p>
 <br><br>
 
