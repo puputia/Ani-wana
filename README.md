@@ -2,7 +2,7 @@
 ## 📚 Aniwana - 자신의 취향에 맞는 애니메이션을 추천해 주는 사이트
 <br><br>
 <p align="center">
-  ![logo](https://github.com/puputia/Ani-wana/assets/87532431/aec04197-54bb-4ff7-b0d8-b2d163df5ff1)
+ ![logo](https://github.com/puputia/Ani-wana/assets/87532431/3349d443-a79f-4556-9c07-e8c9125a7215)
 </p>
 <br><br>
 
@@ -13,8 +13,8 @@
 
 |포지션|프로필|이름|
 |----|-----|---|
-|개발자|<img src="![image](https://github.com/puputia/Algorithm/assets/87532431/a4530b0a-f548-4716-bc89-4c469bb0f6dd" width="200" height="200">|서혜인|
-|기획자|<img src ="![image](https://github.com/puputia/Algorithm/assets/87532431/c6885ced-f6be-46bc-928a-89da7401b017" width="200" height="200">|유동건|
+|개발자|<img src="![profile_h](https://github.com/puputia/Algorithm/assets/87532431/a4530b0a-f548-4716-bc89-4c469bb0f6dd" width="200" height="200">|서혜인|
+|기획자|<img src ="![profile_y](https://github.com/puputia/Algorithm/assets/87532431/c6885ced-f6be-46bc-928a-89da7401b017" width="200" height="200">|유동건|
  
 <br><br>
 
@@ -77,7 +77,7 @@
 
 ## 📹 시연 영상 
 ### 테스트 질문 선택 + 결과
-![Aniwana 시연영상 1](![aniwana](https://github.com/puputia/Ani-wana/assets/87532431/e4a4e329-8a3b-4b8f-8825-a47c8f375672)
+![Aniwana](![aniwana](https://github.com/puputia/Ani-wana/assets/87532431/e4a4e329-8a3b-4b8f-8825-a47c8f375672)
 )
 
 
