@@ -58,9 +58,9 @@
 <br><br>
 
 ## 협업 커뮤니케이션
-+ Github
-+ Swyg
-+ Notion
++ <a href="https://github.com/puputia/Ani-wana/tree/main">Github (링크 이동)</a>
++ <a href="https://www.swygbro.com/contents/e32e1ca0-1423-4525-bcfe-0c9d412f3c4d">Swyg (링크 이동)</a>
++ <a href="https://speckled-origami-292.notion.site/e52171d824634ed98fd7227530a2afbe?pvs=4">Notion (링크 이동)</a>
 + <a href="https://www.figma.com/file/a5tSbRifLdcMKe2uFJr3U7/%EB%82%98%EC%9D%98-%EC%B7%A8%ED%96%A5-%EC%95%A0%EB%8B%88-%EC%B0%BE%EA%B8%B0?node-id=0%3A1&t=QenhiDvo384a3ZgY-1">Figma (링크 이동)</a>
 <br>
 
