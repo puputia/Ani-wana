@@ -77,7 +77,7 @@
 
 ## 📹 시연 영상 
 ### 1. 테스트 질문 선택 + 결과
-![aniwanamovie](https://github.com/puputia/Ani-wana/assets/87532431/af690990-7812-45a3-a246-f2cfd6f176f9)
+![aniwanamovie](https://github.com/puputia/Ani-wana/assets/87532431/af690990-7812-45a3-a246-f2cfd6f176f9 width="200" height="200")
 
 ### 2. 애니 시청 가능 사이트 이동 + 공유 기능
 ![dffdf](https://github.com/puputia/Ani-wana/assets/87532431/5e2fa5e2-a239-4bdc-acf4-950ef888765f)
