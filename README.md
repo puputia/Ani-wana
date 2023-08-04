@@ -1,6 +1,6 @@
 
 # 애니와나 - 자신의 취향에 맞는 애니메이션을 추천해 주는 사이트
-![aniwana swygbro com_](https://github.com/puputia/Ani-wana/assets/87532431/2be30eae-a98a-46df-a5cf-c16d35b5a387)
+![aniwana swygbro com_](https://github.com/puputia/Ani-wana/assets/87532431/2be30eae-a98a-46df-a5cf-c16d35b5a387){: width="100" height="100"}
 
  
 <br><br>
@@ -18,8 +18,8 @@
 
 |포지션|프로필|이름|
 |----|-----|---|
-|개발자|![image](https://github.com/puputia/Algorithm/assets/87532431/a4530b0a-f548-4716-bc89-4c469bb0f6dd width="300" height="300")|서혜인|
-|기획자|![image](https://github.com/puputia/Algorithm/assets/87532431/c6885ced-f6be-46bc-928a-89da7401b017 width="300" height="300")|유동건|
+|개발자|![image](https://github.com/puputia/Algorithm/assets/87532431/a4530b0a-f548-4716-bc89-4c469bb0f6dd) width="300" height="300"|서혜인|
+|기획자|![image](https://github.com/puputia/Algorithm/assets/87532431/c6885ced-f6be-46bc-928a-89da7401b017 width="300" height="300") width="300" height="300"|유동건|
 
 <br><br>
 
@@ -43,16 +43,6 @@
  
   <br><br>
   
-## # 브랜치 관리 전략 및 Conventions
-### ⚙️ git-flow
-<br>
-<img style="display=inline" src="https://user-images.githubusercontent.com/56534241/155872673-50e038a2-f3d5-421e-9431-d5f8b997ebbb.png" />
-
-
-
-
-
-<br><br>
 
 ## # 핵심 기능 <br>
   + <strong>[구현 완료]</strong><br>
@@ -64,11 +54,8 @@
   💡 <br>
   + <strong>[실력을 쌓은 후 추후 유지보수 예정]</strong><br>
   💡 테스트 결과에 따른 유사 추천 애니<br>
-  💡 특정 결과값  <br>
-  💡 캘린더 타임라인 기능<br>
-  💡 일정 변경 요청 기능<br>
-  💡 수업 추가 기능<br>
-  💡 수업 초대 기능<br>
+  💡 특정 결과값만 나오기에 전체 결과값 나오도록 결과 알고리즘 수정<br>
+
 
 <br><br>
 
