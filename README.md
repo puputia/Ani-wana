@@ -75,7 +75,8 @@
 
 ## 📹 시연 영상 
 ### 1. 테스트 질문 선택 + 결과
-<img src="https://github.com/puputia/Ani-wana/assets/87532431/af690990-7812-45a3-a246-f2cfd6f176f9.gif" width="300" height="600" />
+<img src="https://github.com/puputia/Ani-wana/assets/87532431/d380c092-f315-4f29-b874-5fd65830a564.gif" width="480" height="600" />
+
 
 <br/>
 
