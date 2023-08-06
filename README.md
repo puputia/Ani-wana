@@ -84,4 +84,12 @@
 <img src="https://github.com/puputia/Ani-wana/assets/87532431/5e2fa5e2-a239-4bdc-acf4-950ef888765f.gif"/>
 
 
+## 공유 결과
+### 카카오톡
+![image](https://github.com/puputia/Ani-wana/assets/87532431/5bc70669-ecfc-4ccb-8270-049c2f088c7e)
+
+### 트위터
+![image](https://github.com/puputia/Ani-wana/assets/87532431/9ad4ec74-782c-4abd-9a35-18132dc4a5a7)
+
+
 Copyright ©Aniwana 2023. All Rights Reserved.
