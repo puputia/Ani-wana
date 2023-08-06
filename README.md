@@ -86,7 +86,7 @@
 
 ## 공유 결과
 ### 카카오톡
-<img src="https://github.com/puputia/Ani-wana/assets/87532431/5bc70669-ecfc-4ccb-8270-049c2f088c7e.jpg" width="300" height="450" />
+<img src="https://github.com/puputia/Ani-wana/assets/87532431/5bc70669-ecfc-4ccb-8270-049c2f088c7e.jpg" width="4500" height="600" />
 
 
 ### 트위터
