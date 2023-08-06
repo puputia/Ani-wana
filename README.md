@@ -86,11 +86,11 @@
 
 ## 공유 결과
 ### 카카오톡
-<img src="https://github.com/puputia/Ani-wana/assets/87532431/5bc70669-ecfc-4ccb-8270-049c2f088c7e.jpg" width="200" height="200"/>
+<img src="https://github.com/puputia/Ani-wana/assets/87532431/5bc70669-ecfc-4ccb-8270-049c2f088c7e.jpg" />
 
 
 ### 트위터
-<img src="https://github.com/puputia/Ani-wana/assets/87532431/9ad4ec74-782c-4abd-9a35-18132dc4a5a7.jpg" width="200" height="200"/>
+<img src="https://github.com/puputia/Ani-wana/assets/87532431/9ad4ec74-782c-4abd-9a35-18132dc4a5a7.jpg" />
 
 
 
