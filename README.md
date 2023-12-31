@@ -94,6 +94,10 @@
 <img src="https://github.com/puputia/Ani-wana/assets/87532431/9ad4ec74-782c-4abd-9a35-18132dc4a5a7.jpg" width="600" height="300" />
 
 
+### SWYG 프로젝트 내 사용자 유입 전체 2위 달성
+![image](https://github.com/puputia/Ani-wana/assets/87532431/db352f8c-6042-48db-beb9-5fdf3a53db8d)
+
+![image](https://github.com/puputia/Ani-wana/assets/87532431/71a8349e-6e1b-43d3-8706-81dc5fc7f3d6)
 
 
 Copyright ©Aniwana 2023. All Rights Reserved.
